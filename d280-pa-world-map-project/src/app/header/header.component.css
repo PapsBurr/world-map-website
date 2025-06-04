@@ -1,0 +1,27 @@
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+div {
+  background-color: maroon;
+  color: white;
+  padding-bottom: 8px;
+}
+
+a {
+  background-color: yellow;
+  border: solid black 1px;
+  border-radius: 3px;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: yellowgreen;
+}

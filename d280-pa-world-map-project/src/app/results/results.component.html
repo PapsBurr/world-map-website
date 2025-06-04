@@ -1,0 +1,13 @@
+<div>
+  <h3>Country Info</h3>
+  <ul>
+    @for (data of receivedData(); track data.id) {
+      <li>Country's Name: {{ data.name }}</li>
+      <li>Country's Capital: {{ data.capitalCity }}</li>
+      <li>World Region: {{ data.region.value }}</li>
+      <li>Income Level: {{ data.incomeLevel.value }}</li>
+      <li>Capital's longitude: {{ data.longitude }}</li>
+      <li>Capital's latitude: {{ data.latitude }}</li>
+    }
+  </ul>
+</div>
